@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import { Link } from 'react-router-dom';
 import { Context } from '../../Context/Context';
 const Navbar = () => {
-    const { Searc } = useContext(Context)
+    const { Search } = useContext(Context)
 
     return (
         <div className='w-full mt-4 sticky' >
